@@ -1,0 +1,352 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  line-height: 23px;
+  font-size: 15px;
+}
+
+h1 {
+  letter-spacing: -1px;
+  font-size: 65px;
+  color: #000;
+  line-height: 10px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 45px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 15px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.main_menue_btn {
+  margin: 30px;
+  margin-bottom: 0px;
+}
+
+.menu_icon {
+  font-size: 2.5rem;
+  color: #00473e;
+}
+.dropdown-menu {
+  background-color: #fffffe;
+  color: #faae2c;
+}
+.dropdown-menu:hover {
+  /* background-color: #00473e; */
+}
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  color: #faae2c;
+  border-radius: 0;
+}
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #00332c;
+  background-color: #faae2c;
+}
+.title {
+  font-size: 20px;
+  line-height: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#start_text h2 {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+  line-height: 52px;
+  color: #00473e;
+  text-transform: capitalize;
+}
+
+#top_wrapper {
+  width: 100%;
+  height: 95px;
+  background: #ffffff;
+  z-index: 2000;
+  position: fixed;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#section1 {
+  background: #f2f7f5;
+  position: relative;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 50px;
+  /* border: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #00332c; */
+}
+
+#section2 {
+  background: #00473e;
+  position: relative;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 35px;
+  padding-top: 50px;
+  /* border: solid;
+  border-width: 0 5px 0px 5px;
+  border-color: #00332c; */
+}
+
+#start {
+  padding-top: 0;
+}
+
+#start_text {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+#bottom_wrapper {
+  width: 100%;
+  bottom: 0;
+  color: black;
+  font-size: 16px;
+}
+
+#bottom {
+  background: #f2f7f5;
+  color: #00473e;
+  margin: auto;
+  /*margin-top: 30px;*/
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+  height: 50px;
+  /* border: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: #00473e; */
+}
+
+#UniGuide {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-size: 4rem;
+}
+
+.search-bar {
+  margin: 80px auto 80px auto;
+  /*width: 40%;*/
+}
+
+.search-card {
+  background-color: #fffffe;
+}
+.search-body {
+  background-color: #fffffe;
+  color: #00473e;
+}
+
+/*================ LIBARY OVERRIDE ================ */
+.form-outline.form-white .form-control {
+  color: #475d5b;
+  /* background-color: #faae2c; */
+}
+.form-outline.form-white .form-control ~ .form-label {
+  color: #00473e;
+}
+.form-outline.form-white .form-control ~ .form-notch div {
+  border-color: #00473e;
+}
+.form-outline.form-white .form-control:focus ~ .form-label {
+  color: #faae2c;
+}
+.form-outline.form-white .form-control:focus ~ .form-notch .form-notch-middle {
+  border-color: #faae2c;
+}
+.form-outline.form-white .form-control:focus ~ .form-notch .form-notch-leading {
+  border-top: 0.125rem solid #faae2c;
+  border-bottom: 0.125rem solid #faae2c;
+  border-left: 0.125rem solid #faae2c;
+}
+.form-outline.form-white
+  .form-control:focus
+  ~ .form-notch
+  .form-notch-trailing {
+  border-color: #faae2c;
+}
+.form-outline.form-white .form-control::-moz-placeholder {
+  color: hsla(234, 100%, 50%, 0.7);
+}
+.form-outline.form-white .form-control::placeholder {
+  color: hsla(300, 100%, 50%, 0.7);
+}
+.form-outline.form-white .form-control.disabled,
+.form-outline.form-white .form-control:disabled,
+.form-outline.form-white .form-control[readonly] {
+  background-color: hsla(323, 100%, 74%, 0.45);
+}
+/*================ LIBARY OVERRIDE ================ */
+
+#search {
+  background-color: #faae2c;
+}
+
+.mask-custom {
+  background: rgba(24, 24, 16, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.content-info__curve {
+  position: absolute;
+  bottom: -2px;
+  width: 100vw;
+  color: #e37151;
+  z-index: -1;
+  top: 120px;
+  transform: translateY(-25%);
+}
+
+#main {
+  /*background-image: url(https://source.unsplash.com/featured/?nature,water);
+background-image: url(/img/road_marking_bridge_123398_1920x1080.jpg);*/
+}
+
+.autocomplete-items {
+  color: #fff;
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #475d5b;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #ffffff;
+  color: #00473e;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: rgb(255, 255, 255) !important;
+  color: #00473e;
+}
+
+a {
+  color: #00473e;
+  text-decoration: none;
+}
+
+#default_location {
+  position: absolute;
+  top: -15px;
+  left: 5px;
+}
+
+#fsm_actual {
+  /* background-position: center; /* Center the image 
+  background-repeat: no-repeat, repeat; */
+}
+
+#load-Btn {
+  margin: 5px 0 5px 0;
+  padding: 5px;
+  padding-top: 5px;
+  width: 100%;
+  font-size: 3rem;
+  background-color: transparent;
+  border: 0px;
+  color: #faae2c;
+}
+
+#load-Btn:hover {
+  background-color: #475d5b;
+  color: #fa5246;
+}
+
+#load-icon {
+}
+
+#load-icon:hover {
+}
+
+@media (max-width: 425px) {
+  .main_menue_btn {
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+
+  .menu_icon {
+    font-size: 2rem;
+    color: #00473e;
+  }
+
+  #UniGuide {
+    margin-top: 30px;
+    font-size: calc(1vw + 2.5rem);
+  }
+  #section1 {
+    min-height: 740px;
+    height: 100vh;
+  }
+  .search-body {
+    padding: 0.5;
+  }
+  .form-label {
+    font-size: 14px;
+  }
+  .uni-card-body {
+    padding: 7px;
+  }
+  #bottom {
+    font-size: small;
+    padding: 5px;
+    display: block;
+  }
+}

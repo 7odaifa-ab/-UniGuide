@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta http-equiv="Cache-control" content="no-cache" />
+
+    <style type="text/css">
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      #menu a,
+      .title {
+        font-family: "Gotham SSm A", "Gotham SSm B";
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      body,
+      #bottom {
+        font-family: "Gotham SSm A", "Gotham SSm B";
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+
+    <title>UniGuide</title>
+    <link rel="icon" href="resources/256.ico" />
+
+    <!-- website icon -->
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="css/cards.css" type="text/css" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="css/cookie.css" type="text/css" />
+    <!--===============================================================================================-->
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+    <div id="main" class="bg-image">
+      <section class="" id="section1">
+        <!-- ============== menu button ============== -->
+        <div class="btn-group main_menue_btn shadow-0">
+          <button
+            type="button"
+            class="btn dropdown-toggle"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="menu_icon fas fa-bars"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="/index.html#section1">Home</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/index.html#section2"
+                >University Cards</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/about-contact.html">About Us</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item" href="/about-contact.html#section6"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- ============== menu button ============== -->
+        <div id="start">
+          <div id="start_text" class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <h2 id="UniGuide">UniGuide</h2>
+          </div>
+          <div class="search-bar">
+            <div class="container">
+              <div class="card search-card p-3">
+                <div class="card-body search-body">
+                  <p class="h1 font-weight-bold mb-4">
+                    Discover Any University
+                  </p>
+                  <div class="row justify-content-center">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <div id="basic" class="form-outline form-white">
+                        <input
+                          type="text"
+                          id="form1"
+                          class="form-control form-control-lg"
+                        />
+                        <label class="form-label" for="form1"
+                          >Which University are you looking for?</label
+                        >
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                      <div
+                        id="location"
+                        autocomplete="off"
+                        class="form-outline form-white"
+                      >
+                        <input
+                          type="text"
+                          id="form2"
+                          class="form-control form-control-lg"
+                        />
+                        <label class="form-label" for="form2"
+                          >By Location?</label
+                        >
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <button
+                        id="search"
+                        class="btn btn-info btn-block btn-lg"
+                        type="submit"
+                      >
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============= University cards section ============= -->
+      <section class="" id="section2">
+        <div
+          id="card-wrap"
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-4 g-4"
+        >
+          <h6 id="default_location" class="card-light-text"></h6>
+          <!-- add col here for test -->
+        </div>
+      </section>
+
+      <section id="bottom_wrapper">
+        <div id="bottom">
+          Copyright © 2021 Developed by Huimang Tech. All rights reserved.
+        </div>
+      </section>
+    </div>
+    <div class="cookie-container">
+      <div class="images">
+        <img src="img/cookies.png" class="cookie-images" />
+      </div>
+      <div class="cookie-body">
+        <h1 class="cookie-title">Cookies!</h1>
+        <p class="description">
+          By using our website, you agree to the use of cookies.
+        </p>
+        <button type="button" class="cookie-btn">
+          <span>I LIKE COOKIES</span>
+        </button>
+      </div>
+    </div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <!--===============================================================================================-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+    <script type="text/javascript" src="js/config.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="js/cards.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="js/script.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="js/autocomplate.js"></script>
+    <!--===============================================================================================-->
+  </body>
+</html>
