@@ -1,6 +1,6 @@
 
-<div align="center"> <img  align="center" src="https://user-images.githubusercontent.com/86853497/205068884-25ac9cbc-48d2-4c36-93e5-43536239f3f4.png" /></div>
-<h1 align="center">UniGuide<a href="https://github.com/7odaifa-ab/UniGuide"></a></h1>
+<div align="center"> <img align="center" <a target="_blank" href="http://uniguide.unaux.com"><img src="https://user-images.githubusercontent.com/86853497/205068884-25ac9cbc-48d2-4c36-93e5-43536239f3f4.png"></a> </div>
+<h1 align="center"> UniGuide <a href="http://uniguide.unaux.com" ></a></h1>
 <p align="center">
   <a target="_blank" href="https://github.com/Hipo/university-domains-list"><img src="https://img.shields.io/badge/API-University%20Domains%20List-lightgrey"></a>
   <a target="_blank" href="https://openweathermap.org/api"><img src="https://img.shields.io/badge/API-OpenWeatherMap-orange?logo=java"></a>
