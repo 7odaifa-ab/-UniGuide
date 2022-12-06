@@ -20,7 +20,7 @@
 
 </p>
 
-<p align="center">a world wide university search and guide platform.</p>
+<p align="center">A World Wide Universities Search and Guide Platform.</p>
 
 # Screenshots
  <img src="https://user-images.githubusercontent.com/86853497/205074681-22aea32b-13d9-4612-8b0a-a0aa729da056.png" width="400" height="220" />  <img src="https://user-images.githubusercontent.com/86853497/205074703-82e43202-fddb-4f9e-ad53-cfc1a3557ac7.png" width="400" height="220" /> <img src="https://user-images.githubusercontent.com/86853497/205074734-cfcc6cba-51b0-4ff6-91c8-3a85433a27e4.png" width="400" height="220" />      <img src="https://user-images.githubusercontent.com/86853497/205074778-3cc6322e-def3-4e6b-98e2-d92c4a512fa9.png" width="400" height="220" /> <img src="https://user-images.githubusercontent.com/86853497/205074749-cb09240b-f79a-42bf-820e-931cce73cfad.png" width="400" height="220" />      <img src="https://user-images.githubusercontent.com/86853497/205661956-a86a123a-4d5f-4657-a49f-25839ac0ad05.png" width="400" height="220" /> <img src="https://user-images.githubusercontent.com/86853497/205074646-e078de6f-7bbe-430e-bc05-bbe1c647d35a.png" width="400" height="220" />      <img src="https://user-images.githubusercontent.com/86853497/205074823-0983ac91-f5fe-4996-a53f-6dbdfcbdb11e.png" width="400" height="220" />
